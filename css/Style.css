@@ -1,0 +1,225 @@
+body,html
+{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	font-family: arial;
+}
+.Section-head
+{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 1px; 
+	padding:0px 20px 20px 20px;
+}
+.Section-title
+{
+	font-size: 50px;
+	margin-bottom: 2px; 
+}
+header
+{
+	background: #666;
+	width:100%;
+	z-index: 100;
+	position: fixed;
+}
+nav
+{
+	float: right;
+
+}
+nav ul
+{
+	list-style: none;
+	overflow: hidden;
+}
+nav ul li
+{
+	float: left;
+
+}
+nav ul li a
+{
+	display: block;
+	padding: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+}
+.Portada
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+    background:url(http://placehold.it/900x800)  no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    
+}
+.Portada-cont
+{
+	padding-top: 150px;
+	text-align: center;	
+	width: 50%;
+	margin: 0 auto;
+
+
+}
+.Portada-titulo
+{
+	font-size: 50px;
+	margin-bottom: 2px; 
+
+}
+.Portada-subtitulo
+{
+	margin-top: 2px;
+}
+.Portada-boton
+{
+	padding: 10px 20px  10px 20px;
+	color: white;
+	background: transparent;
+	border: 2px solid white ;
+	font-size:16px;
+}
+
+.Service
+{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+    background:white;
+    text-align: center;
+}
+.Service-row
+{
+	display: flex;
+	margin: 50px;
+}
+.Service-item
+{
+	margin: 20px;
+}
+.Service-image
+{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: #666;
+
+}
+.Service-icon
+{
+	margin-top:30px;
+
+}
+.Service-text
+{
+	padding:0px 20px  0px 20px;
+}
+.Pricing
+{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+    background:#ccc;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Pricing-columnContainer
+{
+	display: flex;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.Pricing-column
+{			
+	width: 300px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black; 
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black; 
+
+}
+.Pricing-topDiv
+{
+	text-align: center;
+	background: #666;
+	color: white;
+	padding: 5px;
+	
+}
+.Pricing-name
+{
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 16px;
+	margin-bottom: 5px; 
+
+}
+.Pricing-price
+{
+	margin-top: 2px;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.Pricing-per
+{
+	margin-top: 0px;
+}
+.Pricing-Description
+{
+	margin: 0px;
+	height: 65%;
+	
+}
+.Description-item
+{
+	margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.Item
+{
+	list-style: none;
+	border-bottom: 1px solid white;
+	padding:15px;
+}
+.btn-buyNow
+{
+	width: 200px;
+	color: white;
+	background: #666;
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+
+}
+.Pricing-details
+{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 30px 0px 30px;
+}
+
+footer
+{
+	background:#666;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	padding-top: 5px; 
+}
